@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+
+    
+    <div class="main">
+        
+        <h1 class="full" >TODO APP</h1>
+
+        
+        <div class="head">
+
+            <div class="heading">
+
+                <img src="image/todo-list-icon-27.jpg" class="todoimg" alt="">
+
+                <h1>TODO LIST</h1>
+
+    
+            </div>
+                        
+            <div class="all">
+                <input type="text" id="todo-item" placeholder="Enter Todo" class="todo">
+                <button class="btnfont" onclick="addTodo()"><i class="fa fa-plus-circle fa-lg " aria-hidden="true" ></i></button>
+                <button class="btnfont" onclick="deleteAll()"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div>
+                <ul id="list">
+
+                </ul>
+            </div>
+
+        </div>    
+
+
+
+    </div>
+
+
+
+<script src="app.js"></script>    
+</body>
+
+
+</html>
